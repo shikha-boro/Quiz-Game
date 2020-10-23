@@ -1,0 +1,121 @@
+body{
+    background:#80808000;
+    color: #fff;
+    margin:0px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    background: linear-gradient(45deg, #1A237E, #4CAF50);
+    align-items: center;
+    height:30vh;
+    color: white;
+    font-size:x-large;
+    border-radius: 34px;
+    box-shadow: 0px 4px 9px 1px #00000054;
+    
+}
+li{
+    list-style-type: none;
+}
+.divParent {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5px 5px 0;
+}
+.divPoints{
+    display: grid;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid #00000026;
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 3px 29px 2px #b48cbb9e inset;
+}
+
+.divPoints span {
+    font-size: 1rem;
+    color: #77341d;
+}
+
+h1{
+    text-align:center;
+    color: #2b4964;
+    
+}
+.answer{
+    background: #636a7100;;
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#trueButton{
+    width: 157px;
+    border-radius: 6px;
+    border: 1px solid #948383;
+    height: 41px;
+    color: #c6e0ff;
+    background: green;
+}
+
+#falseButton{
+    /*margin-left: 157px;*/
+    width: 157px;
+    border-radius: 6px;
+    border: 1px solid #948383;
+    height: 41px;
+    color: #c6e0ff;
+    background:#a81c12;
+}
+#countPoint{
+    background: transparent;
+    border-color: #8c9196;
+    border-width: 0px;
+    /* padding: 16px; */
+    font-size: 3rem;
+    width: 85px;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: -25px;
+    color: #5D4037;
+}
+.totalScore{
+    
+    display:none;
+   /* background: blue;*/
+    font-size: 1.5rem;
+    height: 80vh;
+    text-align: center;
+    position:relative;
+    overflow:hidden;
+}
+.totalScore span{
+    
+    font-size:2rem;
+    color: #FCE4EC;
+}
+#countScore{
+    font-size:2rem;
+    text-align:center;
+    color:white;
+    background:#05092930;
+    width: 65px;
+    border-width: 0px;
+    padding: 0px;
+}
+img {
+    height: 100%;
+    width: auto;
+   
+    }
+.points{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

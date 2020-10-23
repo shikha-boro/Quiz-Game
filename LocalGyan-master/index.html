@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="yes" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="viewport" content="user-scalable=no" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- build:js -->
+    <script src="https://www.facebook.com/assets.php/en_US/fbinstant.latest.js"></script>
+
+    <link rel="stylesheet" href="css/style1.css" type="text/css" />
+    <script src="js/displayQuestions.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+    <h1>Quiz Game</h1>
+
+    <div class="totalScore" id="score">
+
+        <img src="img/background.jpg" alt="image not found">
+        <div class="points"><span> Your total Score is:</span>
+            <input type="text" disabled id="countScore"> </div>
+
+    </div>
+    <div id="parent">
+        <div class="divParent">
+            <div class="divPoints">
+
+                <input type="text" disabled id="countPoint">
+                <span> Score</span>
+            </div>
+        </div>
+        <div class="container">
+
+            <ul>
+                <li class="question">
+                    <div id="question">
+                        This is question
+                    </div>
+                    <br><br>
+                </li>
+            </ul>
+        </div>
+        <div class="answer">
+
+            <button id="trueButton">সঁচা</button>
+            <button id="falseButton">মিচা</button>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
